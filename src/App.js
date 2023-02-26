@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing_page/>}/>
           <Route path="/PostView" element={<><Nav/><Post_View/></>}/>
-          <Route path='/form' element={<Form/>}/>
+          <Route path='/form' element={<><Nav/><Form/></>}/>
         </Routes>
       </BrowserRouter>
     </div>

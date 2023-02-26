@@ -50,26 +50,27 @@ border: 1px solid #707070;
 opacity: 1;
 }
 #page-nav{
-  height: 80px;
-  background-color: #f2f2f2;
+  height: 54px;
+  background-color:white;
   border: 1px solid #ccc;
   padding: 0 30px;
 }
 .header-img-container{
   height: 100%;
 }
-.header-img-container img{
-  height: 100%;
-}
 .header-img-container:first-child{
+  width: 500px;
   float: left;
+  background: transparent url('./images/logoinstaclone.jpg') 0% 0% no-repeat padding-box;
 }
 .header-img-container:last-child{
+  width: 50px;
   float: right;
+  background: transparent url('./images/camera.jpg') 0% 0% no-repeat padding-box;
 } 
 .form-container{
   width: 500px;
-  height: 350px;
+  height: 200px;
   margin: 40px auto;
   border: 1px solid grey;
   padding: 20px 20px;
@@ -83,19 +84,23 @@ opacity: 1;
 .form-container button{
   padding: 10px;
   margin-left: 5px;
-  background-color: rgb(215, 198, 198);
+  border-color: black ;
+  background-color:#F0F0F0;
   color: black;
   border: none;
   cursor: pointer;
 }
 .form-container .special{
-  width: 40%
+  width: 200px
 }
 .form-container #postButton{
   padding: 10px;
   margin-left: 220px;
   margin-left: 220px;
   cursor: pointer;
+}
+#description{
+  width: 470px;
 }
 
 /* @keyframes App-logo-spin {
